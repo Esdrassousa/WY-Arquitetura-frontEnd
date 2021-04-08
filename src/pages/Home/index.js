@@ -1,0 +1,79 @@
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom';
+import {Link, useHistory} from 'react-router-dom'
+import Nav from './nav'
+import './styles.css'
+
+
+import project1 from '../../image/olho.jpg';
+import project2 from '../../image/piramide.jpg';
+import project3 from '../../image/predio.jpg';
+import project4 from '../../image/hotel.jpg';
+
+import atendente from '../../image/operador-de-telemarketing.png';
+import email from '../../image/email.png';
+import whats from '../../image/whats.png';
+
+
+export default function Logon(){
+
+
+
+
+  
+  
+  
+      return(
+
+        <div className='inicio'>
+          
+          
+          
+          <Nav></Nav>
+
+          <div className="contact">
+
+              <div className="Entre_em_contato">
+
+                <div className="vertical">
+                  <img src={atendente} alt ='comercial'/>
+                  <a>ENTRE EM CONTATO</a>
+                  <a>(00)0000-0000</a>
+                </div>
+              </div>
+
+              <div className="email">
+                <div className="vertical">
+                  <img src={email} alt ='comercial'/>
+                  <a>SOLICITE SEU ORÇAMENTO</a>
+                  <a>fulanodetal@gmail.com</a>
+                </div>
+
+              </div>
+
+              <div className="whatsapp">
+               
+                <div className="vertical">
+                  <img src={whats} alt ='comercial'/>
+                  <a>WHATSAPP</a>
+                </div>
+
+              </div>
+          </div>
+
+
+
+          <section className="projetos_all">
+          <Link to = "/projetos/olho"><img src={project1} alt ='olho'/></Link>
+            <img src={project2} alt ='hotel'/>
+            <img src={project3} alt ='piramide'/>
+            <img src={project4} alt ='predio'/>
+       
+          </section>
+          
+          
+        </div>
+       
+          
+      )
+  }
