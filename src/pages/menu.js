@@ -5,11 +5,11 @@ class Nav extends Component{
     render(){
 
         return(
-         <body> 
+         <body className="copor"> 
 
         <input type="checkbox" id="bt_menu"/>
         <label for="bt_menu">&#9776;</label>
-        
+        <div className="bg"></div>
         <nav className='menu'>
             
         <ul>

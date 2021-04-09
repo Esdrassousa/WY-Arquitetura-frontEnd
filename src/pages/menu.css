@@ -10,10 +10,12 @@
     
     top: 5%;
     justify-content: center;
-    background-color:  rgb(210, 235, 235);
+    background-color:  rgb(186, 245, 245);
     display: flex;
     left: 0%;
 }
+
+
 
 nav ul li{
     list-style: none;
@@ -23,7 +25,7 @@ nav ul li{
 li a{
     text-decoration: none;
     position: relative;
-    font-size: 20px;
+    font-size: 1.5em;
     display: block;
     padding: 14px;
     color: #313131;
@@ -35,45 +37,68 @@ li a:hover{
 }
 
 label[for="bt_menu"] {
-    padding: 5px;
+    position: fixed;
+    padding: 1%;
     background-color: #222;
     color: #fff;
     font-family: 'Arial';
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5em;
     cursor: pointer;
     width: 30px;
     height: 30px;
     display: none;
+    top: 0;
+    
+    
    }
+   
 
    #bt_menu {
     display: none;
+    margin-top: 0em;
+    
    }
 
    @media (max-width: 800px) {
     label[for="bt_menu"] {
      display: block;
+     position: fixed;
+     border-top: 0em;
+     margin: 0;
+     z-index: 5;
+
+     
     }
+    
   
     #bt_menu:checked ~ .menu {
      margin-left: 0;
+     
+    }
+    #bt_menu:checked ~ .copor{
+        background-color: rgb(0, 0, 0, 0.6);
+        
+        
     }
   
     .menu {
-     position: relative;
-     background-color: #d4d4d4;
+     position: fixed;
+     background-color:  rgb(186, 245, 245);
      margin-top: 0px;
      margin-left: 0px;
      margin-left: -120%;
      transition: all .4s;
-     height: 20%;
+     height: 60%;
+     z-index: 4;
      
     }
   
     .menu ul li {
      width: 100%;
      float: none;
+     position: relative;
+     
     }
     
 
