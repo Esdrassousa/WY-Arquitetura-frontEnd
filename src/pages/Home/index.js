@@ -38,7 +38,7 @@ export default function Logon(){
                 <div className="vertical">
                   <img src={atendente} alt ='comercial'/>
                   <a>ENTRE EM CONTATO</a>
-                  <a>(00)0000-0000</a>
+                  <a>(44)99977-6693</a>
                 </div>
               </div>
 
@@ -46,7 +46,8 @@ export default function Logon(){
                 <div className="vertical">
                   <img src={email} alt ='comercial'/>
                   <a>SOLICITE SEU ORÇAMENTO</a>
-                  <a>fulanodetal@gmail.com</a>
+                  <a href="malito:arq.wesleymartins@hotmail.com?subject=Questions">arq.wesleymartins@hotmail.com</a>
+                  
                 </div>
 
               </div>
@@ -54,7 +55,9 @@ export default function Logon(){
               <div className="whatsapp">
                
                 <div className="vertical">
+                  <a href="https://web.whatsapp.com/send?phone=5544999776693">
                   <img src={whats} alt ='comercial'/>
+                  </a>
                   <a href="https://web.whatsapp.com/send?phone=5544999776693" target="_blank">WHATSAPP</a>
                   <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5544999776693" target="_blank">
 		                <i class="fa fa-whatsapp"></i>
