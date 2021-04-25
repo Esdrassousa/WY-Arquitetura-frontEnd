@@ -7,11 +7,13 @@ export default function projeto_olho(){
     return(
         <div>
 
-            <Menu></Menu>
-            <div className="start">
-            <h1>Em Construção</h1>
+            
+            <base target="_blank" />
+            <iframe width="450" height="260" src="https://thingspeak.com/channels/1369346/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">
+            </iframe>
+            
 
-          </div>
+          
         </div>
     )
 }

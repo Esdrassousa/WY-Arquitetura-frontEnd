@@ -34,7 +34,6 @@ export default function Logon(){
           <div className="contact">
 
               <div className="Entre_em_contato">
-
                 <div className="vertical">
                   <img src={atendente} alt ='comercial'/>
                   <a>ENTRE EM CONTATO</a>
@@ -42,12 +41,12 @@ export default function Logon(){
                 </div>
               </div>
 
+
               <div className="email">
                 <div className="vertical">
                   <img src={email} alt ='comercial'/>
                   <a>SOLICITE SEU ORÇAMENTO</a>
-                  <a href="malito:arq.wesleymartins@hotmail.com?subject=Questions">arq.wesleymartins@hotmail.com</a>
-                  
+                  <a href="malito:arq.wesleymartins@hotmail.com?subject=Questions">arq.wesleymartins@hotmail.com</a> 
                 </div>
 
               </div>
