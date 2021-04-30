@@ -59,7 +59,7 @@ label[for="bt_menu"] {
   
     #bt_menu:checked ~ .menu {
      margin-left: -40em;
-     margin-top: -1em;
+     margin-top: -2em;
      height: 110%;
     }
   

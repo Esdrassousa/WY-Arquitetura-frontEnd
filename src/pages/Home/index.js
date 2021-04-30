@@ -58,7 +58,7 @@ export default function Logon(){
                   <img src={whats} alt ='comercial'/>
                   </a>
                   <a href="https://api.whatsapp.com/send?phone=5544999776693" target="_blank">WHATSAPP</a>
-                  <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5544999776693" target="_blank">
+                  <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5544999776693" target="_blank">
 		                <i class="fa fa-whatsapp"></i>
 	                </a>
                 </div>
