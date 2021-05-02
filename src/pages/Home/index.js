@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom';
 import {Link, useHistory} from 'react-router-dom'
-import Nav from './nav'
+//import Nav from './nav'
 import './styles.css'
 
+import Menu from '../menu'
 
+import logo from '../../image/WM.png'
 import project1 from '../../image/olho.jpg';
 import project2 from '../../image/piramide.jpg';
 import project3 from '../../image/predio.jpg';
@@ -17,19 +19,17 @@ import whats from '../../image/whats.png';
 
 export default function Logon(){
 
-
-
-
-  
-  
   
       return(
 
         <div className='inicio'>
           
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"></link>
+          <div className="menu_e_Logo">
+          <img src={logo} alt ='logomarca'/>
+            <Menu></Menu>
+          </div>
           
-          <Nav></Nav>
 
           <div className="contact">
 

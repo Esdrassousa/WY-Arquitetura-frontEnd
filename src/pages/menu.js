@@ -1,7 +1,9 @@
 import React , { Component }from 'react'
 
 import './menu.css'
-class Nav extends Component{
+
+import logo from '../image/WM.png'
+class menu extends Component{
     render(){
 
         return(
@@ -10,8 +12,11 @@ class Nav extends Component{
         <input type="checkbox" id="bt_menu"/>
         <label for="bt_menu">&#9776;</label>
         <div className="bg"></div>
+        
+        <div className="menu_e_Logo">
+        <img src={logo} alt ='logomarca'/>
         <nav className='menu'>
-            
+        
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Pojetos</a></li>
@@ -21,9 +26,10 @@ class Nav extends Component{
         
         
         </nav>
+        </div>
         </body>  
         )
     }
 }
 
-export default Nav
+export default menu
