@@ -28,8 +28,8 @@
 .menu_e_Logo   img {
     margin-top: 3em;
     margin-left:2em ;
-    width: 18em;
-    height: 5em;
+    width: 15em;
+    height: 4em;
     float: left;
         
 }
@@ -145,7 +145,7 @@ label[for="bt_menu"] {
 
     .menu_e_Logo   img {
         margin-top: 20px;
-        margin-left: 40%;
+        margin-left: 45%;
         width: 180px;
         height: 40px;
         justify-content: center;
