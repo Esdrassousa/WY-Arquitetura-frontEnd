@@ -9,12 +9,15 @@ class menu extends Component{
         return(
          <body className="copor"> 
 
-        <input type="checkbox" id="bt_menu"/>
-        <label for="bt_menu">&#9776;</label>
+        
         <div className="bg"></div>
         
         <div className="menu_e_Logo">
         <img src={logo} alt ='logomarca'/>
+        <input type="checkbox" id="bt_menu"/>
+        <label for="bt_menu">&#9776;</label>
+
+        <div class="navegacao">
         <nav className='menu'>
         
         <ul>
@@ -26,6 +29,7 @@ class menu extends Component{
         
         
         </nav>
+        </div>
         </div>
         </body>  
         )

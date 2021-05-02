@@ -18,6 +18,7 @@
 
 
 .menu{
+    width: 100%;
     position: relative;
     justify-content: center;
     float: none;
@@ -102,7 +103,7 @@ label[for="bt_menu"] {
      position: fixed;
      border-top: 0em;
      margin: 0;
-     z-index: 5;
+     z-index: 7;
 
      
     }
@@ -110,7 +111,13 @@ label[for="bt_menu"] {
   
     #bt_menu:checked ~ .menu {
      margin-left: 0;
+
      
+    }
+    #bt_menu:checked ~ .navegacao {
+        margin-left: 0;
+        
+        
     }
     #bt_menu:checked ~ .copor{
         background-color: rgb(0, 0, 0, 0.6);
@@ -120,14 +127,21 @@ label[for="bt_menu"] {
   
     .menu {
      position: fixed;
-     background-color:  rgb(186, 245, 245);
-     margin-top: 0px;
-     margin-left: 0px;
-     margin-left: -120%;
-     transition: all .4s;
-     height: 60%;
-     z-index: 4;
+     background-color:  rgb(97, 69, 221);
+     margin-top: 100px; 
+     height: 100%;
+     display: table-cell;
+     z-index: 5;
+     float: left;
      
+    }
+
+    
+    .navegacao{
+        margin-left: -120%;
+        margin-top: -15%;
+        transition: all .4s;
+        height: 100%;
     }
 
     .menu_e_Logo{
@@ -140,12 +154,13 @@ label[for="bt_menu"] {
         background-color: #d4d4d4;
         display: inline-block;
         left: 0%;
-        z-index: 4;
+        z-index: 3;
     }
 
     .menu_e_Logo   img {
         margin-top: 20px;
-        margin-left: 45%;
+        margin-left: 35%;
+        margin-right: 30%;
         width: 180px;
         height: 40px;
         justify-content: center;
